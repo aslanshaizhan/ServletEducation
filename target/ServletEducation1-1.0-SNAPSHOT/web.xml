@@ -1,0 +1,27 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>RegistrationPage</servlet-name>
+        <servlet-class>model.UserServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>LoginPage</servlet-name>
+        <servlet-class>model.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>model.LogoutServlet</servlet-class>
+    </servlet>
+
+    <filter>
+        <filter-name>AuthenticationFilter</filter-name>
+        <filter-class>model.AuthenticationFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>RegistrationFilter</filter-name>
+        <url-pattern>model.UserServlet</url-pattern>
+    </filter-mapping>
+</web-app>
