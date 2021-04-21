@@ -1,6 +1,6 @@
 package model;
 
-/*import java.io.IOException;
+import java.io.IOException;
 import java.util.Enumeration;
 
 import javax.servlet.Filter;
@@ -14,8 +14,8 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
-@WebFilter("/LoginFilter")*/
-public class LoginFilter {}/*implements Filter {
+@WebFilter("/LoginFilter")
+public class LoginFilter implements Filter {
 
     private ServletContext context;
 
@@ -44,4 +44,4 @@ public class LoginFilter {}/*implements Filter {
 
     public void destroy() {
     }
-}*/
+}
