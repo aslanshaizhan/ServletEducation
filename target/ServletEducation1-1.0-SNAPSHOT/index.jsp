@@ -79,6 +79,7 @@
         <ul>
             <li><a href="userRegister.jsp">Registration</a></li>
             <li><a href="adminLogin.jsp">Login</a></li>
+            <li><a href="addPost.jsp">Add Post</a></li>
             <li><a href="usersList.jsp">List of Users</a></li>
             <li><a href="programsList.jsp">List of Programs</a></li>
             <li><a href="contacts.jsp">Contacts</a></li>

@@ -1,7 +1,7 @@
 package dao;
 
 import model.DB;
-import model.UserBean;
+import entity.UserBean;
 
 import java.sql.*;
 import java.util.ArrayList;
